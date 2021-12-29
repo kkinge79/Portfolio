@@ -61,24 +61,83 @@
   width: 85%;
 }
 
-.languages {
-
-}
-
-ul {
-
-}
-
-li {
-
+.lang-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .js {
   display: flex;
   flex-direction: column;
+  margin: 10px;
+}
+
+.python {
+  display: flex;
+  flex-direction: column; 
+  margin: 10px;
+}
+
+.css {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.node {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.express {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.mongo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.mongoose {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.django {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.react {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.bootstrap {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 
+/* divider css */
 .divider {								/* minor cosmetics */
   display: table; 
   font-size: 24px; 
