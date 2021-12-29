@@ -61,57 +61,57 @@ body {
 .js {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .python {
   display: flex;
   flex-direction: column; 
-  margin: 10px;
+  margin: 13px;
 }
 .css {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .node {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .express {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .mongo {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .mongoose {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .post {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .django {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .react {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 .bootstrap {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 13px;
 }
 
 
@@ -163,11 +163,14 @@ a.button:hover, a.button:active {
 /* social */
 .social-icons {
   text-align: center;
+  font-size: 50px;
 }
 i.fab.fa-github {
-
+margin: 20px;
 }
-
+i.fab.fa-linkedin {
+  margin: 20px;
+}
 
 /* divider css */
 span {
