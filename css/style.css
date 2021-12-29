@@ -8,7 +8,6 @@ body {
   font-size: 30px;
   margin-left: 30px;
   margin-top: 11vh;
-  margin-bottom: 3vh;
 }
 .name {
   font-size: 45px;
@@ -208,4 +207,27 @@ span {
   background-image: -moz-linear-gradient(180deg, #000, transparent);
   background-image: -o-linear-gradient(180deg, #000, transparent);
   background-image: linear-gradient(90deg, #000, transparent);
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+}
+
+/*! will change depending on color scheme */
+li a:hover {
+  color: red;
+}
+
+.resume a {
+  color: white;
+  font-size: 26px;
+}
+.resume a:hover {
+  color: red;
 }
