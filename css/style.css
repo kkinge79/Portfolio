@@ -40,23 +40,28 @@
 }
 
 /* about me */
-.title-about {
-  
-}
-
 .aboutme {
-  
+  margin-left: 5vh;
+  font-size: 18px;
+  width: 85%;
+  margin-bottom: 4vh;
 }
 
 .school {
-
-}
-
-.languages {
-
+  margin-left: 5vh;
+  font-size: 18px;
+  width: 85%;
+  margin-bottom: 9vh;
 }
 
 .lang-intro {
+  margin-left: 5vh;
+  font-size: 20px;
+  margin-bottom: 6vh;
+  width: 85%;
+}
+
+.languages {
 
 }
 
