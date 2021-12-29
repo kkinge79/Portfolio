@@ -11,4 +11,56 @@
 }
 
 
+/* Intro */
+.greeting {
+ font-size: 30px;
+ margin-left: 30px;
+ margin-top: 15vh;
+ margin-bottom: 3vh;
+}
 
+.name {
+  font-size: 45px;
+  margin-left: 50px;
+  margin-bottom: 3vh;
+}
+
+.sent-self {
+  margin-left: 12vh;
+}
+
+.whoami {
+  margin-top: 25px;
+  margin-left: 5vh;
+  width: 85%;
+  font-size: 22px;
+}
+
+/* about me */
+.title-about {
+  
+}
+
+.aboutme {
+  
+}
+
+.school {
+
+}
+
+.languages {
+
+}
+
+.lang-intro {
+
+}
+
+ul {
+  
+}
+
+li {
+
+}
