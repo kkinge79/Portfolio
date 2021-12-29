@@ -1,22 +1,8 @@
-/* button */
-.button {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-
-
 /* Intro */
 .greeting {
   font-size: 30px;
   margin-left: 30px;
-  margin-top: 15vh;
+  margin-top: 11vh;
   margin-bottom: 3vh;
 }
 .name {
@@ -130,19 +116,64 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 12vh;
 }
-
 .card {
   margin-top: 20px;
 }
 
+
+/* get in touch */
+.intouch-para {
+  margin-left: 5vh;
+  font-size: 18px;
+  width: 85%;
+}
+
+
+/*! change colors */
+/* email */
+.email-btn {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 12vh;
+}
+.button {
+  border-radius: 5px;
+}
+a.button:link, a.button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.button:hover, a.button:active {
+  background-color: red;
+}
+
+
+
+/* social */
+.social-icons {
+  text-align: center;
+}
+i.fab.fa-github {
+
+}
+
+
 /* divider css */
+span {
+  bottom: 13px;
+}
 .divider {								
   display: table; 
-  font-size: 24px; 
+  font-size: 35px; 
   text-align: center; 
   width: 75%; 					
-  margin: 40px auto;				
+  margin: 30px auto;				
 }
 .divider span { display: table-cell; position: relative; }
 .divider span:first-child, .divider span:last-child {
@@ -161,7 +192,7 @@
   background-image: linear-gradient(90deg, transparent, #000);
 }
 .divider span:nth-child(2) {
-  color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+  color: #000; padding: 0px 10px; width: auto; white-space: nowrap;
 }
 .divider span:last-child {			
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
