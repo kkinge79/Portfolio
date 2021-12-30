@@ -128,7 +128,9 @@ body {
 .link-btn {
   text-align: center;
 }
-
+.card-body {
+  font-size: 14px;
+}
 
 /* get in touch */
 .intouch-para {
