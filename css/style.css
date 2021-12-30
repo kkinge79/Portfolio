@@ -125,6 +125,9 @@ body {
 .card {
   margin-top: 20px;
 }
+.link-btn {
+  text-align: center;
+}
 
 
 /* get in touch */
@@ -164,8 +167,12 @@ a.button:hover, a.button:active {
   text-align: center;
   font-size: 50px;
 }
-i.fab.fa-github {
+i.fab.fa-github-square {
 margin: 20px;
+color: black;
+}
+i.fab.fa-github-square:hover{
+  color: rgb(73, 69, 69);
 }
 i.fab.fa-linkedin {
   margin: 20px;
