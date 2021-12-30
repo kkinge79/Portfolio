@@ -3,6 +3,14 @@ body {
 }
 
 
+/* navbar */
+.navbar.navbar-dark.bg-dark {
+  background-color: red !important;
+}
+div.bg-dark.p-4 {
+  background-color: rgb(243, 125, 125) !important;
+}
+
 /* Intro */
 .greeting {
   font-size: 30px;
