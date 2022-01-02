@@ -1,15 +1,15 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url("/images/wallpaper2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  ;
 }
 
 
-/* navbar */
-.navbar.navbar-dark.bg-dark {
-  background-color: red !important;
-}
-div.bg-dark.p-4 {
-  background-color: rgb(243, 125, 125) !important;
-}
 
 /* Intro */
 .greeting {
@@ -18,12 +18,12 @@ div.bg-dark.p-4 {
   margin-top: 11vh;
 }
 .name {
-  font-size: 45px;
-  margin-left: 50px;
+  font-size: 55px;
+  margin-left: 30px;
   margin-bottom: 3vh;
 }
 .sent-self {
-  margin-left: 12vh;
+  margin-left: 30px;
 }
 .whoami {
   margin-top: 25px;
@@ -37,7 +37,7 @@ div.bg-dark.p-4 {
 /* about me */
 .aboutme {
   margin-left: 5vh;
-  font-size: 18px;
+  font-size: 22px;
   width: 85%;
   margin-bottom: 4vh;
 }
@@ -68,57 +68,57 @@ div.bg-dark.p-4 {
 .js {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .python {
   display: flex;
   flex-direction: column; 
-  margin: 13px;
+  margin: 15px;
 }
 .css {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .node {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .express {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .mongo {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .mongoose {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .post {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .django {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .react {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 .bootstrap {
   display: flex;
   flex-direction: column;
-  margin: 13px;
+  margin: 15px;
 }
 
 
@@ -143,7 +143,7 @@ div.bg-dark.p-4 {
 /* get in touch */
 .intouch-para {
   margin-left: 5vh;
-  font-size: 18px;
+  font-size: 22px;
   width: 85%;
 }
 
@@ -154,7 +154,6 @@ div.bg-dark.p-4 {
   margin: auto;
   text-align: center;
   margin-bottom: 12vh;
-  ali
 }
 .button {
   border-radius: 5px;
@@ -163,7 +162,7 @@ div.bg-dark.p-4 {
   border-radius: 5px;
 }
 a.button:link, a.button:visited {
-  background-color: #f44336;
+  background-color: #0065a0c4;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -171,7 +170,7 @@ a.button:link, a.button:visited {
   display: inline-block;
 }
 a.button:hover, a.button:active {
-  background-color: red;
+  background-color: #1c65b8;
 }
 a.g-button:link, a.g-button:visited {
   background-color: #000000;
@@ -191,14 +190,14 @@ a.g-button:hover, a.g-button:active {
   font-size: 50px;
 }
 i.fab.fa-github-square {
-margin: 20px;
+margin: 5px;
 color: black;
 }
 i.fab.fa-github-square:hover{
   color: rgb(73, 69, 69);
 }
 i.fab.fa-linkedin {
-  margin: 20px;
+  margin: 5px;
 }
 
 /* divider css */
@@ -251,13 +250,13 @@ li a {
 
 /*! will change depending on color scheme */
 li a:hover {
-  color: red;
+  color: gray;
 }
 
 .resume a {
   color: white;
-  font-size: 26px;
+  font-size: 30px;
 }
 .resume a:hover {
-  color: red;
+  color: gray;
 }
